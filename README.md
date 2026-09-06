@@ -5,17 +5,39 @@ A new design every day.
 <details>
 <summary>📅 September 2026</summary>
 
+### Mon
+
+### Tue
+
+#### 01
+
+<a href="./September%202026/Tue/01"><img src="./September%202026/Tue/01/01.png" width="200"></a>
+
+### Wed
+
+#### 02
+
+<a href="./September%202026/Wed/02"><img src="./September%202026/Wed/02/02.png" width="200"></a>
+
+### Thu
+
 ### Fri
 
-<a href="./September%202026/Fri"><img src="./September%202026/Fri/preview.png" width="200"></a>
+#### 04
+
+<a href="./September%202026/Fri/04"><img src="./September%202026/Fri/04/04.png" width="200"></a>
 
 ### Sat
 
-<a href="./September%202026/Sat"><img src="./September%202026/Sat/preview.png" width="200"></a>
+#### 05
+
+<a href="./September%202026/Sat/05"><img src="./September%202026/Sat/05/05.png" width="200"></a>
 
 ### Sun
 
-<a href="./September%202026/Sun"><img src="./September%202026/Sun/preview.png" width="200"></a>
+#### 06
+
+<a href="./September%202026/Sun/06"><img src="./September%202026/Sun/06/06.png" width="200"></a>
 
 </details>
 

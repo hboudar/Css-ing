@@ -14,6 +14,16 @@ IMAGE_EXTENSIONS = {
     ".gif",
 }
 
+WEEKDAYS = {
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun",
+}
+
 
 def github_path(path: Path) -> str:
     """Convert a repository path into a GitHub-friendly relative URL."""
@@ -27,6 +37,7 @@ A new design every day.
 
 """
 
+    # Find month directories
     months = sorted(
         directory
         for directory in ROOT.iterdir()
@@ -42,37 +53,75 @@ A new design every day.
         content += f"<details>\n"
         content += f"<summary>📅 {escape(month.name)}</summary>\n\n"
 
-        days = sorted(
+        # Find weekdays
+        weekdays = sorted(
             directory
             for directory in month.iterdir()
             if directory.is_dir()
+            and directory.name in WEEKDAYS
         )
 
-        for day in days:
-            images = sorted(
-                file
-                for file in day.iterdir()
-                if file.is_file()
-                and file.suffix.lower() in IMAGE_EXTENSIONS
+        # Sort weekdays in calendar order
+        weekday_order = {
+            "Mon": 0,
+            "Tue": 1,
+            "Wed": 2,
+            "Thu": 3,
+            "Fri": 4,
+            "Sat": 5,
+            "Sun": 6,
+        }
+
+        weekdays.sort(key=lambda day: weekday_order[day.name])
+
+        for weekday in weekdays:
+
+            # Find date directories
+            dates = sorted(
+                directory
+                for directory in weekdays[0].parent.iterdir()
+                if directory.is_dir()
+            ) if False else sorted(
+                directory
+                for directory in weekday.iterdir()
+                if directory.is_dir()
+                and directory.name.isdigit()
             )
 
-            if not images:
+            if not dates:
                 continue
 
-            content += f"### {escape(day.name)}\n\n"
+            content += f"### {escape(weekday.name)}\n\n"
 
-            day_url = github_path(day)
+            for date in dates:
 
-            for image in images:
-                image_url = github_path(image)
-
-                content += (
-                    f'<a href="{day_url}">'
-                    f'<img src="{image_url}" width="200">'
-                    f'</a>\n'
+                # Find images directly inside the date directory
+                images = sorted(
+                    file
+                    for file in date.iterdir()
+                    if file.is_file()
+                    and file.suffix.lower() in IMAGE_EXTENSIONS
                 )
 
-            content += "\n"
+                # Ignore empty date directories
+                if not images:
+                    continue
+
+                content += f"#### {escape(date.name)}\n\n"
+
+                # Clicking an image opens that day's directory
+                day_url = github_path(date)
+
+                for image in images:
+                    image_url = github_path(image)
+
+                    content += (
+                        f'<a href="{day_url}">'
+                        f'<img src="{image_url}" width="200">'
+                        f'</a>\n'
+                    )
+
+                content += "\n"
 
         content += "</details>\n\n"
 
