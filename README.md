@@ -7,6 +7,10 @@ A new design every day.
 
 ### Mon
 
+#### 07
+
+<a href="./September%202026/Mon/07"><img src="./September%202026/Mon/07/07.png" width="200"></a>
+
 ### Tue
 
 #### 01
