@@ -5,6 +5,8 @@ A new design every day.
 <details>
 <summary>📅 September 2026</summary>
 
+### Mon
+
 ### Tue
 
 #### 01
