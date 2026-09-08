@@ -21,7 +21,7 @@ div {
   position: relative;
 }
 
-div:before {
+div::before {
   content: '';
   width: 120px;
   height: 120px;
@@ -34,7 +34,7 @@ div:before {
   position: absolute;
 }
 
-div:after {
+div::after {
   content: '';
   width: 60px;
   height: 60px;

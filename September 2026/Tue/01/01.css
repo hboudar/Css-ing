@@ -19,7 +19,7 @@ ul {
   position: relative;
 }
 
-ul:after {
+ul::after {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -27,7 +27,7 @@ ul:after {
   left: 30px;
   top: 30px;
 }
-ul:before {
+ul::before {
   width: 45px;
   height: 80px;
 
@@ -57,8 +57,8 @@ li:last-child {
 }
 
 li,
-ul:after,
-ul:before {
+ul::after,
+ul::before {
   content: '';
   background: #bade37;
   position: absolute;

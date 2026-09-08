@@ -28,7 +28,7 @@ li:nth-child(2) {
   background: #2f6193;
 }
 
-li:after {
+li::after {
   content: '';
   height: 50%;
   width: 100%;
@@ -36,6 +36,6 @@ li:after {
   background: #84b9ef;
   position: absolute;
 }
-li:nth-child(2):after {
+li:nth-child(2)::after {
   margin-top: 0px;
 }

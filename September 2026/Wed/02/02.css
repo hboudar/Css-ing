@@ -40,7 +40,7 @@ li:last-child {
   left: 100px;
 }
 
-li:after {
+li::after {
   content: '';
   height: 25px;
   width: 25px;
@@ -48,19 +48,19 @@ li:after {
   position: absolute;
 }
 
-li:first-child:after {
+li:first-child::after {
   top: -25px;
   left: -25px;
 }
-li:nth-child(2):after {
+li:nth-child(2)::after {
   top: 50px;
   left: -25px;
 }
-li:nth-child(3):after {
+li:nth-child(3)::after {
   top: 50px;
   left: 50px;
 }
-li:last-child:after {
+li:last-child::after {
   top: -25px;
   left: 50px;
 }

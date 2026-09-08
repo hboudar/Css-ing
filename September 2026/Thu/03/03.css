@@ -22,7 +22,7 @@ li:first-child {
   background: #dddeeb;
   border-radius: 50%;
 }
-li:first-child:after {
+li:first-child::after {
   content: '';
   height: 100px;
   width: 100px;
@@ -43,7 +43,7 @@ li:last-child {
   border-radius: 50%;
   position: absolute;
 }
-li:last-child:after {
+li:last-child::after {
   content: '';
   width: 80px;
   height: 20px;
