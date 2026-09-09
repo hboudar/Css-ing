@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #328fc1;
+}
+
+ul {
+  list-style: none;
+  position: relative;
+}
+
+li {
+  width: 70px;
+  height: 90px;
+
+  display: flex;
+  position: absolute;
+  justify-content: center;
+
+  background: #3b3f58;
+}
+
+#first {
+  right: 75px;
+  bottom: 20px;
+}
+
+#second {
+  top: 20px;
+  right: -15px;
+}
+
+#third {
+  left: 75px;
+  bottom: 20px;
+}
+
+#first::after,
+#third::after {
+  content: '';
+  width: 10px;
+  height: 90px;
+
+  top: 90px;
+  position: absolute;
+
+  background: #3b3f58;
+}
+
+#second::after {
+  content: '';
+  width: 170px;
+  height: 10px;
+
+  top: 40px;
+  position: absolute;
+
+  background: #3b3f58;
+}
