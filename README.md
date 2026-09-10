@@ -37,6 +37,10 @@ A new design every day.
 
 <a href="./September%202026/Thu/03"><img src="./September%202026/Thu/03/03.png" width="200"></a>
 
+#### 10
+
+<a href="./September%202026/Thu/10"><img src="./September%202026/Thu/10/10.png" width="200"></a>
+
 ### Fri
 
 #### 04
