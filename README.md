@@ -1,6 +1,22 @@
 # 🎨 Daily Design Challenge
 
-A new design every day.
+A daily CSS challenge inspired by **CSS Battle** — creating a new design from scratch every day using HTML and CSS.
+
+The goal is simple: **one day, one design, one new CSS technique.**
+
+Each challenge focuses on recreating shapes, illustrations, patterns, and creative UI designs while improving my CSS skills, experimenting with different techniques, and finding increasingly clever ways to achieve visual results with minimal code.
+
+### What you'll find here
+
+* 🎯 A new CSS design every day
+* 🧩 Creative challenges inspired by CSS Battle
+* 💡 Experiments with CSS shapes, positioning, gradients, shadows, and more
+* 📈 A record of my progress and improvement over time
+
+This repository is both a **CSS playground and a daily learning journey**.
+
+Let's see how far CSS can go. 🚀
+
 
 <details>
 <summary>📅 September 2026</summary>
