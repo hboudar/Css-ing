@@ -24,6 +24,16 @@ WEEKDAYS = {
     "Sun",
 }
 
+WEEKDAY_ORDER = {
+    "Mon": 0,
+    "Tue": 1,
+    "Wed": 2,
+    "Thu": 3,
+    "Fri": 4,
+    "Sat": 5,
+    "Sun": 6,
+}
+
 
 def github_path(path: Path) -> str:
     """Convert a repository path into a GitHub-friendly relative URL."""
@@ -50,42 +60,31 @@ A new design every day.
     )
 
     for month in months:
-        content += f"<details>\n"
+        content += "<details>\n"
         content += f"<summary>📅 {escape(month.name)}</summary>\n\n"
 
         # Find weekdays
         weekdays = sorted(
-            directory
-            for directory in month.iterdir()
-            if directory.is_dir()
-            and directory.name in WEEKDAYS
+            (
+                directory
+                for directory in month.iterdir()
+                if directory.is_dir()
+                and directory.name in WEEKDAYS
+            ),
+            key=lambda day: WEEKDAY_ORDER[day.name],
         )
-
-        # Sort weekdays in calendar order
-        weekday_order = {
-            "Mon": 0,
-            "Tue": 1,
-            "Wed": 2,
-            "Thu": 3,
-            "Fri": 4,
-            "Sat": 5,
-            "Sun": 6,
-        }
-
-        weekdays.sort(key=lambda day: weekday_order[day.name])
 
         for weekday in weekdays:
 
             # Find date directories
             dates = sorted(
-                directory
-                for directory in weekdays[0].parent.iterdir()
-                if directory.is_dir()
-            ) if False else sorted(
-                directory
-                for directory in weekday.iterdir()
-                if directory.is_dir()
-                and directory.name.isdigit()
+                (
+                    directory
+                    for directory in weekday.iterdir()
+                    if directory.is_dir()
+                    and directory.name.isdigit()
+                ),
+                key=lambda date: int(date.name),
             )
 
             if not dates:
@@ -112,16 +111,21 @@ A new design every day.
                 # Clicking an image opens that day's directory
                 day_url = github_path(date)
 
+                # Display all designs from the same day side-by-side
+                content += "<table><tr>\n"
+
                 for image in images:
                     image_url = github_path(image)
 
                     content += (
+                        "<td>"
                         f'<a href="{day_url}">'
                         f'<img src="{image_url}" width="200">'
-                        f'</a>\n'
+                        "</a>"
+                        "</td>\n"
                     )
 
-                content += "\n"
+                content += "</tr></table>\n\n"
 
         content += "</details>\n\n"
 
