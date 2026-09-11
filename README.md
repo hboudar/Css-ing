@@ -5,85 +5,65 @@ A new design every day.
 <details>
 <summary>📅 September 2026</summary>
 
-### Mon
+### Mon: 07/September
 
-#### 07
-
-<table><tr>
+<table>
+<tr>
 <td><a href="./September%202026/Mon/07"><img src="./September%202026/Mon/07/07.png" width="200"></a></td>
-</tr></table>
+</tr>
+</table>
 
-### Tue
+### Tue: 01/September, 08/September
 
-#### 01
-
-<table><tr>
+<table>
+<tr>
 <td><a href="./September%202026/Tue/01"><img src="./September%202026/Tue/01/01.png" width="200"></a></td>
-</tr></table>
-
-#### 08
-
-<table><tr>
 <td><a href="./September%202026/Tue/08"><img src="./September%202026/Tue/08/08.png" width="200"></a></td>
-</tr></table>
+</tr>
+</table>
 
-### Wed
+### Wed: 02/September, 09/September
 
-#### 02
-
-<table><tr>
+<table>
+<tr>
 <td><a href="./September%202026/Wed/02"><img src="./September%202026/Wed/02/02.png" width="200"></a></td>
-</tr></table>
-
-#### 09
-
-<table><tr>
 <td><a href="./September%202026/Wed/09"><img src="./September%202026/Wed/09/09.png" width="200"></a></td>
-</tr></table>
+</tr>
+</table>
 
-### Thu
+### Thu: 03/September, 10/September
 
-#### 03
-
-<table><tr>
+<table>
+<tr>
 <td><a href="./September%202026/Thu/03"><img src="./September%202026/Thu/03/03.png" width="200"></a></td>
-</tr></table>
-
-#### 10
-
-<table><tr>
 <td><a href="./September%202026/Thu/10"><img src="./September%202026/Thu/10/10.png" width="200"></a></td>
-</tr></table>
+</tr>
+</table>
 
-### Fri
+### Fri: 04/September, 11/September
 
-#### 04
-
-<table><tr>
+<table>
+<tr>
 <td><a href="./September%202026/Fri/04"><img src="./September%202026/Fri/04/04.png" width="200"></a></td>
-</tr></table>
-
-#### 11
-
-<table><tr>
 <td><a href="./September%202026/Fri/11"><img src="./September%202026/Fri/11/11.png" width="200"></a></td>
-</tr></table>
+</tr>
+</table>
 
-### Sat
+### Sat: 05/September
 
-#### 05
-
-<table><tr>
+<table>
+<tr>
 <td><a href="./September%202026/Sat/05"><img src="./September%202026/Sat/05/05.png" width="200"></a></td>
-</tr></table>
+</tr>
+</table>
 
-### Sun
+### Sun: 06/September
 
-#### 06
-
-<table><tr>
+<table>
+<tr>
 <td><a href="./September%202026/Sun/06"><img src="./September%202026/Sun/06/06.png" width="200"></a></td>
-</tr></table>
+</tr>
+</table>
 
 </details>
 

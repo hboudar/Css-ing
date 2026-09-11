@@ -35,9 +35,9 @@ WEEKDAY_ORDER = {
 }
 
 
-def github_path(path: Path) -> str:
-    """Convert a repository path into a GitHub-friendly relative URL."""
-    return "./" + "/".join(quote(part) for part in path.parts)
+def github_path(*parts) -> str:
+    """Convert path components into a GitHub-friendly relative URL."""
+    return "./" + "/".join(quote(str(part)) for part in parts)
 
 
 def main():
@@ -63,7 +63,7 @@ A new design every day.
         content += "<details>\n"
         content += f"<summary>📅 {escape(month.name)}</summary>\n\n"
 
-        # Find weekdays
+        # Find weekdays in chronological order
         weekdays = sorted(
             (
                 directory
@@ -87,14 +87,10 @@ A new design every day.
                 key=lambda date: int(date.name),
             )
 
-            if not dates:
-                continue
-
-            content += f"### {escape(weekday.name)}\n\n"
+            # Keep only dates containing images
+            date_images = []
 
             for date in dates:
-
-                # Find images directly inside the date directory
                 images = sorted(
                     file
                     for file in date.iterdir()
@@ -102,20 +98,41 @@ A new design every day.
                     and file.suffix.lower() in IMAGE_EXTENSIONS
                 )
 
-                # Ignore empty date directories
-                if not images:
-                    continue
+                if images:
+                    date_images.append((date, images))
 
-                content += f"#### {escape(date.name)}\n\n"
+            # Skip empty weekdays
+            if not date_images:
+                continue
 
-                # Clicking an image opens that day's directory
-                day_url = github_path(date)
+            # Weekday heading
+            date_names = ", ".join(
+                f"{date.name}/{month.name.split()[0]}"
+                for date, _ in date_images
+            )
 
-                # Display all designs from the same day side-by-side
-                content += "<table><tr>\n"
+            content += (
+                f"### {escape(weekday.name)}: "
+                f"{escape(date_names)}\n\n"
+            )
+
+            # One table for the entire weekday
+            content += "<table>\n<tr>\n"
+
+            for date, images in date_images:
+                day_url = github_path(
+                    month.name,
+                    weekday.name,
+                    date.name,
+                )
 
                 for image in images:
-                    image_url = github_path(image)
+                    image_url = github_path(
+                        month.name,
+                        weekday.name,
+                        date.name,
+                        image.name,
+                    )
 
                     content += (
                         "<td>"
@@ -125,7 +142,7 @@ A new design every day.
                         "</td>\n"
                     )
 
-                content += "</tr></table>\n\n"
+            content += "</tr>\n</table>\n\n"
 
         content += "</details>\n\n"
 
