@@ -1,0 +1,43 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: #1d025e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent {
+  width: 200px;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.child {
+  width: 50px;
+  height: 120px;
+  background: #f5e3b5;
+  position: relative;
+}
+.child::before {
+  content: '';
+  width: 100px;
+  height: 100px;
+  background: #f5e3b5;
+  border-radius: 50%;
+  position: absolute;
+  left: -25px;
+  top: -90px;
+}
+.child::after {
+  content: '';
+  width: 50px;
+  height: 60px;
+  background: #1d025e;
+  position: absolute;
+  top: -90px;
+}
