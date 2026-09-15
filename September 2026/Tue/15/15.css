@@ -1,0 +1,90 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: #993576;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  padding: 0;
+  width: 200px;
+  height: 200px;
+  list-style: none;
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+.child {
+  width: 110px;
+  height: 110px;
+  background: #5adab8;
+  border-radius: 50%;
+  position: absolute;
+}
+.child::after {
+  content: '';
+  width: 50px;
+  height: 50px;
+  background: #5adab8;
+  position: absolute;
+}
+li:nth-child(even)::before {
+  content: '';
+  width: 50px;
+  height: 50px;
+  background: #5adab8;
+  position: absolute;
+}
+
+.child1 {
+  justify-self: start;
+  align-self: start;
+  top: -20px;
+  left: -20px;
+}
+.child2 {
+  justify-self: start;
+  align-self: end;
+  bottom: -20px;
+  left: -20px;
+}
+.child3 {
+  justify-self: end;
+  align-self: end;
+  bottom: -20px;
+  right: -20px;
+}
+.child4 {
+  justify-self: end;
+  align-self: start;
+  top: -20px;
+  right: -20px;
+}
+
+.child1::after {
+  bottom: 0;
+  right: 0;
+}
+.child2::after {
+  top: 0;
+  right: 0;
+}
+.child3::after {
+  top: 0;
+  left: 0;
+}
+.child4::after {
+  bottom: 0;
+  left: 0;
+}
+
+.child2::before {
+  bottom: 0;
+}
+.child4::before {
+  right: 0;
+}
