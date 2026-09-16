@@ -40,12 +40,13 @@ Let's see how far CSS can go. 🚀
 </tr>
 </table>
 
-### Wed: 02/September, 09/September
+### Wed: 02/September, 09/September, 16/September
 
 <table>
 <tr>
 <td><a href="./September%202026/Wed/02"><img src="./September%202026/Wed/02/02.png" width="200"></a></td>
 <td><a href="./September%202026/Wed/09"><img src="./September%202026/Wed/09/09.png" width="200"></a></td>
+<td><a href="./September%202026/Wed/16"><img src="./September%202026/Wed/16/16.png" width="200"></a></td>
 </tr>
 </table>
 

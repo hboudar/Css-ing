@@ -88,3 +88,8 @@ li:nth-child(even)::before {
 .child4::before {
   right: 0;
 }
+
+.child2,
+.child4 {
+  border-radius: 63% 0% 65% 0%;
+}
