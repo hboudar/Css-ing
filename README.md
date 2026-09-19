@@ -19,7 +19,7 @@ Let's see how far CSS can go. 🚀
 
 
 <details>
-<summary><a  href="#">📅 September 2026</a></summary>
+<summary>📅 September 2026</summary>
 
 ### Mon: 07/September, 14/September
 
