@@ -80,12 +80,13 @@ Let's see how far CSS can go. 🚀
 </tr>
 </table>
 
-### Sun: 06/September, 13/September
+### Sun: 06/September, 13/September, 20/September
 
 <table>
 <tr>
 <td><a href="./September%202026/Sun/06"><img src="./September%202026/Sun/06/06.png" width="200"></a></td>
 <td><a href="./September%202026/Sun/13"><img src="./September%202026/Sun/13/13.png" width="200"></a></td>
+<td><a href="./September%202026/Sun/20"><img src="./September%202026/Sun/20/20.png" width="200"></a></td>
 </tr>
 </table>
 
