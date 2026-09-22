@@ -43,7 +43,7 @@ def github_path(*parts) -> str:
 def main():
     content = """# 🎨 Daily Design Challenge
 
-A daily CSS challenge inspired by **CSS Battle** — creating a new design from scratch every day using HTML and CSS.
+A daily CSS challenge inspired by **[CSS Battle](https://cssbattle.dev)** — creating a new design from scratch every day using HTML and CSS.
 
 The goal is simple: **one day, one design, one new CSS technique.**
 
