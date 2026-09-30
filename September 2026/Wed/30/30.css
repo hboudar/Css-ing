@@ -1,0 +1,80 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: #f8f5f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+[a] {
+  width: 160px;
+  height: 160px;
+  background: #4355cc;
+  border-radius: 0 0 50% 50%;
+  position: relative;
+  transform: translate(0px, 10px);
+}
+[a]::before {
+  content: '';
+  width: 140px;
+  height: 140px;
+  background: #fcc9e3;
+  position: absolute;
+  border-radius: 0 0 50% 50%;
+  transform: translate(10px, 10px);
+}
+[a]::after {
+  content: '';
+  width: 160px;
+  height: 40px;
+  background: #4355cc;
+  position: absolute;
+  transform: translate(0px, -20px);
+}
+[b] {
+  width: 100px;
+  height: 110px;
+  background: #4355cc;
+  position: absolute;
+  border-radius: 0 0 50% 50%;
+  left: 30px;
+  top: 20px;
+}
+[b]::before {
+  content: '';
+  width: 80px;
+  height: 80px;
+  background: #f8f5f1;
+  position: absolute;
+  border-radius: 0 0 50% 50%;
+  left: 10px;
+  top: 20px;
+}
+[b]::after {
+  content: '';
+  width: 80px;
+  height: 80px;
+  background: #f8f5f1;
+  position: absolute;
+  left: 10px;
+  top: -40px;
+  z-index: 1;
+}
+[c]::after,
+[c]::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: #f8f5f1;
+  position: absolute;
+  z-index: 2;
+  top: -30px;
+}
+[c]::after {
+  left: -20px;
+}
+[c]::before {
+  right: -20px;
+}
