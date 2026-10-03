@@ -37,6 +37,14 @@ Let's see how far CSS can go. 🚀
 </tr>
 </table>
 
+### Sat: 03/October
+
+<table>
+<tr>
+<td><a href="./October%202026/Sat/03"><img src="./October%202026/Sat/03/03.png" width="200"></a></td>
+</tr>
+</table>
+
 </details>
 
 <details>
