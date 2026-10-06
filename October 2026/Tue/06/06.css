@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #e98f6b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  width: 160px;
+  height: 160px;
+  background: #8b4646;
+  border-radius: 50%;
+  box-shadow: 0 0 0 20px#fff;
+  position: relative;
+}
+p::after {
+  content: '';
+  width: 50px;
+  height: 80px;
+  background: #e98f6b;
+  position: absolute;
+  top: 40px;
+  left: -20px;
+  box-shadow: 150px 0 0#E98F6B;
+}
+p::before {
+  content: '';
+  width: 20px;
+  height: 80px;
+  background: #fff;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  box-shadow: 80px 0 0#fff;
+}
