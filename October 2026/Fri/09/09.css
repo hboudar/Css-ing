@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  background: #dff6fb;
+  height: 100vh;
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  * > * {
+    width: 50px;
+    position: relative;
+  }
+  * > *::after {
+    content: '';
+    width: 10px;
+    position: absolute;
+    left: 20px;
+  }
+}
+[a] {
+  height: 130px;
+  background: #4dcb60;
+}
+[b] {
+  height: 170px;
+  background: #d07b5f;
+}
+[a]::after {
+  height: 170px;
+  background: #4dcb60;
+  top: -20px;
+}
+[b]::after {
+  height: 250px;
+  background: #d07b5f;
+  top: -40px;
+}
