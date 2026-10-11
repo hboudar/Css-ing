@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #fae29e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  margin-top: -25px;
+  width: 30px;
+  height: 180px;
+  background: #d16161;
+  position: relative;
+}
+p::after {
+  content: '';
+  width: 60px;
+  height: 60px;
+  background: #d16161;
+  position: absolute;
+  bottom: -10px;
+  left: -15px;
+  z-index: -2;
+  box-shadow: 0 0 0 30px#3F4869;
+  transform: rotate(45deg);
+}
+p::before {
+  content: '';
+  width: 170px;
+  height: 70px;
+  background: #fae29e;
+  position: absolute;
+  top: 90px;
+  left: -70px;
+  z-index: -1;
+}
