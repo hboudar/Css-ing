@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #9f6766;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  width: 180px;
+  height: 160px;
+  background: #bde4c1;
+  position: relative;
+}
+p::after {
+  content: '';
+  width: 30px;
+  height: 80px;
+  background: #9f6766;
+  position: absolute;
+  left: -10px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 170px 0 0 0 #9f6766;
+}
+p::before {
+  content: '';
+  width: 50px;
+  height: 60px;
+  background: #9f6766;
+  position: absolute;
+  left: 65px;
+  border-radius: 0 0 25px 25px;
+}
