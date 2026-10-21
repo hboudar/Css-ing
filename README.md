@@ -29,20 +29,22 @@ Let's see how far CSS can go. 🚀
 </tr>
 </table>
 
-### Tue: 06/October
+### Tue: 06/October, 20/October
 
 <table>
 <tr>
 <td><a href="./October%202026/Tue/06"><img src="./October%202026/Tue/06/06.png" width="200"></a></td>
+<td><a href="./October%202026/Tue/20"><img src="./October%202026/Tue/20/20.png" width="200"></a></td>
 </tr>
 </table>
 
-### Wed: 07/October, 14/October
+### Wed: 07/October, 14/October, 21/October
 
 <table>
 <tr>
 <td><a href="./October%202026/Wed/07"><img src="./October%202026/Wed/07/07.png" width="200"></a></td>
 <td><a href="./October%202026/Wed/14"><img src="./October%202026/Wed/14/14.png" width="200"></a></td>
+<td><a href="./October%202026/Wed/21"><img src="./October%202026/Wed/21/21.png" width="200"></a></td>
 </tr>
 </table>
 
@@ -76,12 +78,13 @@ Let's see how far CSS can go. 🚀
 </tr>
 </table>
 
-### Sun: 04/October, 11/October
+### Sun: 04/October, 11/October, 18/October
 
 <table>
 <tr>
 <td><a href="./October%202026/Sun/04"><img src="./October%202026/Sun/04/04.png" width="200"></a></td>
 <td><a href="./October%202026/Sun/11"><img src="./October%202026/Sun/11/11.png" width="200"></a></td>
+<td><a href="./October%202026/Sun/18"><img src="./October%202026/Sun/18/18.png" width="200"></a></td>
 </tr>
 </table>
 
