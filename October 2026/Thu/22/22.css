@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #30acce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+b {
+  position: relative;
+  &::before {
+    width: 130px;
+    height: 20px;
+  }
+  &::after {
+    width: 20px;
+    height: 130px;
+    box-shadow: 0-110px 0#173C46;
+  }
+  &::after,
+  &::before {
+    content: '';
+    background: #173c46;
+    position: absolute;
+    top: 36px;
+    left: 20px;
+  }
+}
+p {
+  width: 60px;
+  height: 60px;
+  background: #173c46;
+  border-radius: 50%;
+  &::after {
+    top: 56px;
+  }
+  &::before {
+    bottom: 56px;
+    z-index: -1;
+  }
+  &::after,
+  &::before {
+    content: '';
+    width: 110px;
+    height: 110px;
+    background: #fff;
+    position: absolute;
+    left: 40px;
+  }
+}
