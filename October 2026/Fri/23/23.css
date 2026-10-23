@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #ce4830;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+b {
+  width: 160px;
+  height: 160px;
+  background: #edf4b0;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  position: relative;
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    background: #edf4b0;
+  }
+  &::after {
+    width: 100px;
+    bottom: 0;
+    left: 30px;
+    box-shadow: 0 2px 0 12px#CE4830;
+  }
+  &::before {
+    width: 60px;
+    bottom: -30px;
+    left: 50px;
+    z-index: 1;
+  }
+}
+p {
+  width: 20px;
+  height: 60px;
+  background: #ce4830;
+  position: absolute;
+  left: 70px;
+  top: 54px;
+}
