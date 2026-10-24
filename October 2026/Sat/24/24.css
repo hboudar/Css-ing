@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #5065ab;
+}
+
+b {
+  width: 280px;
+  height: 100px;
+  position: relative;
+  border-radius: 10px;
+  background: #cbcdb7;
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+  }
+  &::before {
+    top: 20px;
+    left: 20px;
+    width: 240px;
+    height: 60px;
+    background: #5065ab;
+  }
+  &::after {
+    top: 30px;
+    left: 40px;
+    width: 20px;
+    height: 40px;
+    border-radius: 10px;
+    background: #cbcdb7;
+    box-shadow: 180px 0 0 #cbcdb7;
+  }
+}
+
+p {
+  width: 20px;
+  height: 160px;
+  top: -46px;
+  left: -40px;
+  position: absolute;
+  border-radius: 10px;
+  background: #cbcdb7;
+  box-shadow: 340px 0 0 #cbcdb7;
+}
