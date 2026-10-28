@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f2bc;
+}
+p {
+  width: 120px;
+  height: 120px;
+  background: #30acce;
+  border-radius: 50%;
+  position: relative;
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -20px;
+  }
+  &::after {
+    background: #1d5260;
+    border-radius: 0 80px 0 0;
+    right: 0px;
+  }
+  &::before {
+    background: #30acce;
+    border-radius: 80px 0;
+  }
+}
