@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background:
+    linear-gradient(#809e97) center/238px 118px no-repeat,
+    linear-gradient(#36443b) center/300px 180px no-repeat,
+    #809e97;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  position: relative;
+  bottom: -60px;
+  border-left: 72px solid transparent;
+  border-right: 72px solid transparent;
+  border-bottom: 90px solid #809e97;
+  &::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -55px;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-bottom: 70px solid #36443b;
+  }
+}
