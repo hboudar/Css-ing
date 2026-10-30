@@ -1,0 +1,13 @@
+body {
+  width: 800px;
+  height: 600px;
+  background:
+    linear-gradient(#394257) 50% 375px/40px 40px no-repeat,
+    linear-gradient(#cbcc58) 50% 0/60px 100% no-repeat,
+    radial-gradient(
+      circle at 50% 800px,
+      #cbcc58 350px,
+      #394257 0px 402px,
+      #cbcc58 0px
+    );
+}
