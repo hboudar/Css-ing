@@ -1,0 +1,21 @@
+body {
+  height: 100vh;
+  background:
+    linear-gradient(#444f52) top 380px center/40px 20px no-repeat,
+    #e9c282;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  margin: 110px 32px;
+  width: 320px;
+  height: 160px;
+  border-radius: 80px;
+  background:
+    linear-gradient(#444f52) top center/40px 20px no-repeat,
+    linear-gradient(#e9c282) top center/80px 40px no-repeat,
+    linear-gradient(#444f52) top center/120px 60px no-repeat,
+    linear-gradient(#e9c282) top center/ 160px 80px no-repeat,
+    #444f52;
+}
