@@ -21,13 +21,14 @@ Let's see how far CSS can go. 🚀
 <details>
 <summary>📅 October 2026</summary>
 
-### Mon: 05/October, 12/October, 19/October
+### Mon: 05/October, 12/October, 19/October, 26/October
 
 <table>
 <tr>
 <td><a href="./October%202026/Mon/05"><img src="./October%202026/Mon/05/05.png" width="200"></a></td>
 <td><a href="./October%202026/Mon/12"><img src="./October%202026/Mon/12/12.png" width="200"></a></td>
 <td><a href="./October%202026/Mon/19"><img src="./October%202026/Mon/19/19.png" width="200"></a></td>
+<td><a href="./October%202026/Mon/26"><img src="./October%202026/Mon/26/26.png" width="200"></a></td>
 </tr>
 </table>
 
