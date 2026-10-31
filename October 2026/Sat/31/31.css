@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #62306d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 30px solid#F7EC7D;
+  position: relative;
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+    background: #f7ec7d;
+  }
+  &::after {
+    width: 150px;
+    height: 30px;
+    top: -30px;
+    left: 50px;
+    box-shadow: -150px 130px#F7EC7D;
+  }
+  &::before {
+    width: 30px;
+    height: 150px;
+    top: -100px;
+    right: -30px;
+    box-shadow: -130px 150px#F7EC7D;
+  }
+}
