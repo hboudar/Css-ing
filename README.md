@@ -75,7 +75,7 @@ Let's see how far CSS can go. 🚀
 </tr>
 </table>
 
-### Sat: 03/October, 10/October, 17/October, 24/October
+### Sat: 03/October, 10/October, 17/October, 24/October, 31/October
 
 <table>
 <tr>
@@ -83,6 +83,7 @@ Let's see how far CSS can go. 🚀
 <td><a href="./October%202026/Sat/10"><img src="./October%202026/Sat/10/10.png" width="200"></a></td>
 <td><a href="./October%202026/Sat/17"><img src="./October%202026/Sat/17/17.png" width="200"></a></td>
 <td><a href="./October%202026/Sat/24"><img src="./October%202026/Sat/24/24.png" width="200"></a></td>
+<td><a href="./October%202026/Sat/31"><img src="./October%202026/Sat/31/31.png" width="200"></a></td>
 </tr>
 </table>
 
