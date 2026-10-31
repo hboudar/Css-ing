@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #84b9c7;
+}
+p {
+  width: 80px;
+  height: 80px;
+  background: #1d5260;
+  position: relative;
+  top: -60px;
+  left: -60px;
+  border-radius: 60px 0;
+  box-shadow: 120px 120px#1D5260;
+  &::before,
+  &::after {
+    content: '';
+    width: 30px;
+    height: 260px;
+    background: #ecd5e4;
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    box-shadow: 190px 0 #ecd5e4;
+  }
+  &::before {
+    transform: rotate(90deg) translate(-95px, -95px);
+  }
+}
