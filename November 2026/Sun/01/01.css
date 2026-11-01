@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  height: 100vh;
+  background: #6d4630;
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * > * {
+    margin: 10px;
+    width: 100px;
+    height: 120px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 0 20px white;
+    background:
+      linear-gradient(#fff) left 50px/20px 20px no-repeat,
+      linear-gradient(#fff) right 50px/20px 20px no-repeat,
+      #6d4630;
+  }
+  * > *::after {
+    content: '';
+    width: 90px;
+    height: 160px;
+    background: #6d4630;
+    position: absolute;
+    top: -20px;
+  }
+}
+p::after {
+  left: -20px;
+}
+b::after {
+  right: -20px;
+}
