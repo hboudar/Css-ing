@@ -19,6 +19,27 @@ Let's see how far CSS can go. 🚀
 
 
 <details>
+<summary>📅 November 2026</summary>
+
+### Mon: 02/November
+
+<table>
+<tr>
+<td><a href="./November%202026/Mon/02"><img src="./November%202026/Mon/02/02..png" width="200"></a></td>
+</tr>
+</table>
+
+### Sun: 01/November
+
+<table>
+<tr>
+<td><a href="./November%202026/Sun/01"><img src="./November%202026/Sun/01/01.png" width="200"></a></td>
+</tr>
+</table>
+
+</details>
+
+<details>
 <summary>📅 October 2026</summary>
 
 ### Mon: 05/October, 12/October, 19/October, 26/October
