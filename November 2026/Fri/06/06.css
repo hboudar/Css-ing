@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #e98f6b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 400px;
+  height: 400px;
+  background:
+    linear-gradient(#e98f6b) top 75px right 125px/140px 140px no-repeat,
+    linear-gradient(#8b4646) top 45px right 95px/170px 170px no-repeat,
+    linear-gradient(#e98f6b) top 15px right 65px/210px 210px no-repeat,
+    linear-gradient(#8b4646) top 15px right 65px/240px 240px no-repeat,
+    linear-gradient(#8b4646) top 45px left 65px/30px 30px no-repeat,
+    linear-gradient(#8b4646) bottom 115px right 95px/30px 30px no-repeat;
+}
