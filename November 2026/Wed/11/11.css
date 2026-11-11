@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  body {
+    height: 100vh;
+    width: 100vw;
+    background: #6f9893;
+  }
+
+  body,
+  div {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  div {
+    gap: 10px;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      right: -100px;
+      border-radius: 50%;
+      background:
+        linear-gradient(#2f5a76) right 100px center / 20px 170px no-repeat,
+        #6f9893;
+    }
+    p {
+      height: 40px;
+      width: 240px;
+      background: #2f5a76;
+    }
+  }
+}
