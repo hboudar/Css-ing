@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  body {
+    height: 100vh;
+    background:
+      linear-gradient(#f2eaa8) center/240px 30px no-repeat,
+      #ee7667;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * > * {
+    width: 80px;
+    height: 220px;
+    background: #f2eaa8;
+    position: absolute;
+  }
+}
+p {
+  transform: rotate(45deg);
+}
+b {
+  transform: rotate(-45deg);
+  &::after {
+    content: '';
+    width: 180px;
+    height: 30px;
+    background: #ee7667;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 95px;
+    left: -50px;
+  }
+}
