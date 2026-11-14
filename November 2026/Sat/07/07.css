@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #469e6c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 400px;
+  height: 300px;
+  background:
+    linear-gradient(#000) left 110px top 105px/20px 20px no-repeat,
+    linear-gradient(#000) right 150px top 105px/20px 20px no-repeat,
+    linear-gradient(#f2f1e0) center/300px 50px no-repeat,
+    linear-gradient(#469e6c) bottom 75px left 70px/60px 60px no-repeat,
+    linear-gradient(#000) bottom 65px left 50px/60px 60px no-repeat,
+    linear-gradient(#469e6c) bottom 75px right 30px/60px 60px no-repeat,
+    linear-gradient(#000) bottom 65px right 50px/60px 60px no-repeat,
+    #469e6c;
+}
