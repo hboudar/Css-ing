@@ -46,11 +46,12 @@ Let's see how far CSS can go. 🚀
 </tr>
 </table>
 
-### Thu: 05/November
+### Thu: 05/November, 12/November
 
 <table>
 <tr>
 <td><a href="./November%202026/Thu/05"><img src="./November%202026/Thu/05/05.png" width="200"></a></td>
+<td><a href="./November%202026/Thu/12"><img src="./November%202026/Thu/12/12.png" width="200"></a></td>
 </tr>
 </table>
 
