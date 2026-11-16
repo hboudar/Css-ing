@@ -21,11 +21,12 @@ Let's see how far CSS can go. 🚀
 <details>
 <summary>📅 November 2026</summary>
 
-### Mon: 02/November
+### Mon: 02/November, 16/November
 
 <table>
 <tr>
 <td><a href="./November%202026/Mon/02"><img src="./November%202026/Mon/02/02..png" width="200"></a></td>
+<td><a href="./November%202026/Mon/16"><img src="./November%202026/Mon/16/16.png" width="200"></a></td>
 </tr>
 </table>
 
