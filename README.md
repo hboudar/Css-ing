@@ -57,12 +57,13 @@ Let's see how far CSS can go. 🚀
 </tr>
 </table>
 
-### Fri: 06/November, 13/November
+### Fri: 06/November, 13/November, 20/November
 
 <table>
 <tr>
 <td><a href="./November%202026/Fri/06"><img src="./November%202026/Fri/06/06.png" width="200"></a></td>
 <td><a href="./November%202026/Fri/13"><img src="./November%202026/Fri/13/13.png" width="200"></a></td>
+<td><a href="./November%202026/Fri/20"><img src="./November%202026/Fri/20/20.png" width="200"></a></td>
 </tr>
 </table>
 
